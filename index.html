@@ -1,0 +1,1054 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunny Scholars Learning Kit — Preschool &amp; Kindergarten Activities</title>
+  <meta name="description" content="500+ printable learning activities for ages 2-7. Alphabet, phonics, math, handwriting & fine motor skills. Instant download + 30-day guarantee.">
+  <meta name="author" content="Sunny Scholars">
+  <meta name="theme-color" content="#2563eb">
+
+  <meta property="og:title" content="Sunny Scholars Learning Kit — Instant Access">
+  <meta property="og:description" content="The printable activity kit that builds real reading and math confidence at home. 500+ activities. Instant download.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-bundle-mockup.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap">
+  </noscript>
+
+  <link rel="preload" as="style" href="css/style.css" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="style.css"></noscript>
+
+  <!-- ============================================================
+       CSS INLINE — Comparativo, Cadernos e Pricing
+       (mantido aqui para garantir o visual sem depender do style.css externo)
+       ============================================================ -->
+  <style>
+    /* ============ COMPARATIVO — métricas com barras ============ */
+    .cmp-title{ font-size: clamp(1.9rem, 6.5vw, 3.5rem); }
+    .cmp-sub{ margin-top:.85rem; max-width: 720px; margin-left:auto; margin-right:auto; }
+
+    .cmp-grid{
+      display:grid; grid-template-columns:1fr; gap:1.25rem;
+      margin: 2.25rem auto 0; max-width:1100px;
+    }
+    @media(min-width:860px){ .cmp-grid{ grid-template-columns:1fr 1fr; gap:1.75rem; margin-top:2.75rem; } }
+
+    .cmp-card{
+      position:relative; background:#fff; border-radius:1.5rem;
+      padding:1.5rem 1.25rem 1.4rem;
+      box-shadow: 0 10px 30px -12px rgba(15,23,42,.18);
+      border:2px solid #e2e8f0; min-width:0;
+    }
+    @media(min-width:480px){ .cmp-card{ padding:1.75rem 1.5rem 1.5rem; border-radius:1.65rem; } }
+    @media(min-width:768px){ .cmp-card{ padding:2rem 1.85rem 1.75rem; } }
+
+    .cmp-bad{ border-color: rgba(220,38,38,.2); }
+    .cmp-good{ border:3px solid #22c55e; box-shadow: 0 25px 50px -15px rgba(34,197,94,.35); }
+
+    .cmp-recom{
+      position:absolute; top:-.85rem; right:1.1rem;
+      background:#22c55e; color:#fff;
+      padding:.4rem .9rem; border-radius:999px;
+      font-weight:800; font-size:.72rem; letter-spacing:.06em;
+      box-shadow: 0 10px 25px -8px rgba(34,197,94,.6);
+    }
+    @media(min-width:480px){ .cmp-recom{ font-size:.78rem; padding:.45rem 1rem; right:1.5rem; } }
+
+    .cmp-head{ display:flex; align-items:center; gap:.85rem; margin-bottom:1.4rem; }
+    .cmp-icon{
+      flex-shrink:0; width:3.2rem; height:3.2rem; border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      font-family:'Poppins',sans-serif; font-weight:800;
+      font-size:1.6rem; line-height:1;
+    }
+    @media(min-width:480px){ .cmp-icon{ width:3.6rem; height:3.6rem; font-size:1.85rem; } }
+    .cmp-icon-bad{ background: rgba(220,38,38,.1); color:#dc2626; }
+    .cmp-icon-good{ background: rgba(34,197,94,.15); color:#16a34a; }
+
+    .cmp-h3{
+      font-family:'Poppins',sans-serif; font-weight:700;
+      font-size: 1.35rem; line-height:1.15; color:#0f172a; margin:0;
+    }
+    @media(min-width:480px){ .cmp-h3{ font-size:1.6rem; } }
+    @media(min-width:768px){ .cmp-h3{ font-size:1.8rem; } }
+
+    .cmp-metric{ margin-bottom: 1.05rem; }
+    .cmp-metric:last-of-type{ margin-bottom: 1.25rem; }
+    .cmp-row{ display:flex; justify-content:space-between; align-items:baseline; gap:.75rem; margin-bottom:.5rem; }
+    .cmp-lab{ font-weight:700; color:#0f172a; font-size:.88rem; line-height:1.3; }
+    @media(min-width:480px){ .cmp-lab{ font-size:.95rem; } }
+    @media(min-width:768px){ .cmp-lab{ font-size:1rem; } }
+    .cmp-val{ font-family:'Poppins',sans-serif; font-weight:700; font-size:.88rem; white-space:nowrap; flex-shrink:0; }
+    @media(min-width:480px){ .cmp-val{ font-size:1rem; } }
+    @media(min-width:768px){ .cmp-val{ font-size:1.05rem; } }
+    .cmp-val-bad{ color:#dc2626; }
+    .cmp-val-good{ color:#16a34a; }
+    .cmp-bar{ width:100%; height:10px; border-radius:999px; background:#f1f5f9; overflow:hidden; }
+    @media(min-width:480px){ .cmp-bar{ height:12px; } }
+    .cmp-fill{ height:100%; border-radius:999px; transition: width 1s ease; }
+    .cmp-fill-bad{ background: linear-gradient(90deg, #fca5a5, #f87171); }
+    .cmp-fill-good{ background: linear-gradient(90deg, #22c55e, #16a34a); box-shadow: 0 0 12px rgba(34,197,94,.45); }
+    .cmp-foot{ margin-top: 1.1rem; font-size:.78rem; font-style: italic; color:#64748b; text-align:center; line-height:1.4; }
+    @media(min-width:480px){ .cmp-foot{ font-size:.82rem; } }
+
+    /* ============ PRICING (DARK) ============ */
+    .section-dark{
+      background: linear-gradient(135deg, #0f172a, #1e2748);
+      color:#fff;
+      position:relative;
+      overflow:hidden;
+      padding: 4rem 0 5rem;
+    }
+    @media(min-width:768px){ .section-dark{ padding: 6rem 0 7rem; } }
+    .section-dark::before{
+      content:""; position:absolute; inset:0; opacity:.12;
+      background: radial-gradient(circle at 50% 50%, #2563eb, transparent 50%);
+      pointer-events:none;
+    }
+    .section-dark .container{ position:relative; z-index:1; }
+
+    .urgency{
+      display:inline-flex; align-items:center; gap:.4rem;
+      background: rgba(220,38,38,.18); border:1px solid #dc2626;
+      padding:.45rem 1rem; border-radius:999px;
+      font-weight:800; font-size:.8rem; margin-bottom:1.5rem;
+      animation: pulseSoft 1.6s ease-in-out infinite;
+    }
+    @keyframes pulseSoft { 0%,100%{opacity:1} 50%{opacity:.6} }
+
+    .countdown{
+      display:inline-flex; align-items:center; gap:.75rem; margin-top:1.25rem;
+      background: rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.2);
+      padding:.7rem 1.25rem; border-radius:1rem;
+    }
+    .countdown .cd-lbl{ font-size:.75rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em; opacity:.85; }
+    .countdown .cd-time{
+      font-family:'Poppins',sans-serif; font-weight:800; font-size:1.35rem; color:#f59e0b;
+      letter-spacing:.03em; font-variant-numeric: tabular-nums;
+    }
+    @media(min-width:480px){ .countdown .cd-time{ font-size:1.6rem; } }
+
+    .pricing{
+      display:grid; grid-template-columns:1fr; gap:1.5rem;
+      max-width:1100px; margin: 3rem auto 0; width:100%;
+      align-items:stretch;
+    }
+    @media(min-width:900px){ .pricing{ grid-template-columns:1fr 1fr; gap:2rem; } }
+
+    .plan{
+      background:#fff; color:#0f172a; border-radius:1.5rem; padding:2rem;
+      box-shadow: 0 10px 30px -12px rgba(15,23,42,.18);
+      border:2px solid #e2e8f0;
+      min-width:0; display:flex; flex-direction:column; height:100%; text-align:left;
+    }
+    @media(min-width:480px){ .plan{ padding:2.2rem; } }
+    .plan.featured{
+      border:4px solid #2563eb;
+      box-shadow: 0 25px 50px -12px rgba(37,99,235,.3);
+      position:relative;
+    }
+    @media(min-width:900px){ .plan.featured{ transform: scale(1.05); z-index:2; } }
+
+    .plan-badge-top{
+      position:absolute; top:-1rem; left:50%; transform: translateX(-50%);
+      background: linear-gradient(135deg, #2563eb, #0ea5e9 50%, #16a34a);
+      color:#fff;
+      padding:.5rem 1.2rem; border-radius:999px;
+      font-weight:800; font-size:.8rem; white-space:nowrap;
+      box-shadow: 0 20px 60px -15px rgba(37,99,235,.45); z-index:10;
+    }
+    .plan .eyebrow-sm{ font-size:.75rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:#64748b; }
+    .plan.featured .eyebrow-sm{ color:#2563eb; }
+    .plan h3{ font-size:1.6rem; margin:.4rem 0; color:#0f172a; font-family:'Poppins',sans-serif; }
+    .plan .desc{ color:#64748b; font-size:.95rem; margin-bottom:1.5rem; line-height:1.4; }
+    .plan .strike{ color:#64748b; text-decoration: line-through; font-size:.9rem; display:block; }
+    .plan .price{ font-family:'Poppins',sans-serif; font-size:3.2rem; font-weight:700; line-height:1; margin:.2rem 0; }
+    .plan.featured .price{
+      background: linear-gradient(135deg, #2563eb, #0ea5e9 50%, #16a34a);
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+    .plan .install{ font-size:1rem; color:#1fa05a; font-weight:700; margin-bottom:1.5rem; }
+
+    .plan ul.feat{
+      display:flex; flex-direction:column; gap:.6rem;
+      margin: 1rem 0 1.25rem; flex-grow:1;
+      font-size:.92rem; font-weight:700; list-style:none; padding:0;
+    }
+    .plan ul.feat li{ display:flex; gap:.6rem; align-items:flex-start; font-weight:700; color:#0f172a; font-size:.95rem; }
+    .plan ul.feat li::before{ content:"✓"; color:#1fa05a; font-weight:900; flex-shrink:0; }
+
+    .box-feat{ background:#f1f5f9; border-radius:1rem; padding:.9rem; margin: .5rem 0 1rem; }
+    @media(min-width:480px){ .box-feat{ padding:1rem; } }
+    .box-feat .ttl{ font-weight:800; margin-bottom:.5rem; display:flex; align-items:center; gap:.4rem; color:#0f172a; font-size:.95rem; }
+
+    .plan a.btn{ width:100%; margin-top:auto; }
+    .plan .mini-trust{ display:flex; justify-content:center; flex-wrap:wrap; gap:.55rem; font-size:.7rem; color:#64748b; margin-top:.85rem; }
+    .plan .mini-trust span{ display:inline-flex; align-items:center; gap:.3rem; }
+
+    /* ============ VALUE STACK ============ */
+    .value-stack{ margin: .75rem 0 1rem; border-top:1px dashed #e2e8f0; border-bottom:1px dashed #e2e8f0; padding: .8rem 0; }
+    .value-stack .vs-row{ display:flex; justify-content:space-between; gap:.5rem; font-size:.8rem; padding:.22rem 0; color:#334155; font-weight:600; }
+    .value-stack .vs-row .v{ color:#94a3b8; text-decoration:line-through; white-space:nowrap; }
+    .value-stack .vs-total{ display:flex; justify-content:space-between; font-weight:800; font-size:.88rem; margin-top:.5rem; padding-top:.5rem; border-top:1px solid #e2e8f0; color:#0f172a; }
+    .value-summary{ background:#f0fdf4; border:1.5px solid #86efac; border-radius:.85rem; padding:.75rem 1rem; margin:0 0 1rem; text-align:center; }
+    .value-summary .save{ font-family:'Poppins',sans-serif; font-weight:800; font-size:1.2rem; color:#16a34a; display:block; }
+    .value-summary .lbl{ font-size:.68rem; color:#166534; font-weight:700; text-transform:uppercase; letter-spacing:.04em; }
+  </style>
+
+  <script>
+    window.pixelId = "69e7bf8acbaaa84c4f9f57da";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js?cb=" + Date.now());
+    document.head.appendChild(a);
+  </script><script async="" defer="" src="js/pixel.js"></script>
+  <script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "wi4u0w4t26");
+</script>
+<script>if(typeof window.webkit==="undefined"){window.webkit={messageHandlers:{}}}</script>
+</head>
+<body>
+
+  <!-- ============ TICKER ============ -->
+  <div class="ticker" role="marquee" aria-label="Offers">
+    <div class="ticker-track">
+      <span>🔥 LIMITED TIME OFFER</span>
+      <span>✅ Loved by Parents & Teachers</span>
+      <span>🎁 EXCLUSIVE BONUSES INCLUDED</span>
+      <span>⚡ INSTANT DOWNLOAD</span>
+      <span>🛡️ 30-DAY MONEY-BACK GUARANTEE</span>
+      <span>💳 SECURE CHECKOUT</span>
+    </div>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="container">
+      <div class="grid">
+        <div>
+          <span class="badge-pill">🔥 THE MOST-LOVED LEARNING KIT OF 2026</span>
+
+          <h1>
+            Help Your Child <span class="hl">Read With Confidence</span> Before Kindergarten.
+          </h1>
+
+          <p class="lead">
+  Stop searching for the right worksheets. This printable activity kit covers <strong>the alphabet, phonics, early math, handwriting and fine motor skills</strong> — everything your child needs to feel confident before Kindergarten. Download, print, and start today.
+</p>
+          <div class="hero-img-wrap hero-img-wrap-full">
+          <img src="images/hero-bundle-mockup.png" alt="Sunny Scholars Kindergarten Ready Learning Kit — binder, Phonics &amp; Reading workbook, Math Made Fun workbook, Handwriting Practice workbook, flashcards, progress chart, Super Star certificate, Parent Quick Start Guide and Games Pack, with Instant Download, Print Unlimited Times, Lifetime Access, Ages 2-7, 100% Secure Checkout and 30-Day Guarantee badges" fetchpriority="high">
+        </div>
+
+          <div class="hero-proof-strip">
+            <span><span class="stars-sm">★★★★★</span> <strong>4.9/5</strong></span>
+            <span>Trusted by 1,500+ Families</span>
+            <span>500+ Printable Activities</span>
+            <span>Instant Download</span>
+          </div>
+
+          <a class="btn btn-cta btn-cta-lg" href="#oferta">GET INSTANT ACCESS →</a>
+
+          <div class="hero-trust-badges">
+            <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg> Instant Download</span>
+            <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="9" width="12" height="13" rx="1"/><path d="M9 9V5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v9"/></svg> Print Unlimited Times</span>
+            <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Lifetime Access</span>
+            <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Ages 2–7</span>
+            <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Secure Checkout</span>
+            <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg> 30-Day Guarantee</span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ BAR SOCIAL ============ -->
+  <section class="bar-social">
+    <div class="container">
+      <div class="row">
+        <div class="item"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><div><div class="num">1,500+</div><div class="lab">Happy Families</div></div></div>
+        <div class="item"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span><div><div class="num">4.9/5</div><div class="lab">Average Rating</div></div></div>
+        <div class="item"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></span><div><div class="num">500+</div><div class="lab">Printable Activities</div></div></div>
+        <div class="item"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><div class="num">Risk-Free</div><div class="lab">30-Day Guarantee</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AUTHORITY STATEMENT ============ -->
+  <section class="authority">
+    <div class="container">
+      <div class="authority-inner">
+        <h2>Created by educators. Designed for parents. <span class="text-fire">Loved by children.</span></h2>
+        <p>Every worksheet was created to make learning simple, fun and stress-free. No complicated lesson plans. No subscriptions. No screens. Just print and start learning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPARATIVO ============ -->
+  <section class="section-muted">
+    <div class="container">
+      <div class="text-center">
+        <span class="eyebrow eyebrow-danger">Stop Wasting Hours Searching Free Worksheets</span>
+        <h2 class="h2 cmp-title">The Difference is <span class="text-fire">Huge</span></h2>
+        <p class="lead-muted cmp-sub">See the real impact of using structured, step-by-step learning activities vs. random worksheets from the internet.</p>
+      </div>
+
+      <div class="cmp-grid">
+        <div class="cmp-card cmp-bad">
+          <div class="cmp-head">
+            <div class="cmp-icon cmp-icon-bad">✕</div>
+            <h3 class="cmp-h3">Random Worksheets</h3>
+          </div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Learning Progress</span><span class="cmp-val cmp-val-bad">Stalled</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-bad" style="width:18%"></div></div></div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Letter & Sound Recognition</span><span class="cmp-val cmp-val-bad">15%</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-bad" style="width:15%"></div></div></div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Consistency</span><span class="cmp-val cmp-val-bad">Almost None</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-bad" style="width:8%"></div></div></div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Prep Time</span><span class="cmp-val cmp-val-bad">Very High (4h/week)</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-bad" style="width:90%"></div></div></div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Child's Interest</span><span class="cmp-val cmp-val-bad">Low</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-bad" style="width:22%"></div></div></div>
+          <p class="cmp-foot">Based on feedback from parents and teachers who tried teaching with random worksheets found online.</p>
+        </div>
+
+        <div class="cmp-card cmp-good">
+          <span class="cmp-recom">RECOMMENDED</span>
+          <div class="cmp-head">
+            <div class="cmp-icon cmp-icon-good">✓</div>
+            <h3 class="cmp-h3">Sunny Scholars Kit</h3>
+          </div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Learning Progress</span><span class="cmp-val cmp-val-good">Accelerated</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-good" style="width:96%"></div></div></div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Letter & Sound Recognition</span><span class="cmp-val cmp-val-good">98%</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-good" style="width:98%"></div></div></div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Consistency</span><span class="cmp-val cmp-val-good">92%</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-good" style="width:92%"></div></div></div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Prep Time</span><span class="cmp-val cmp-val-good">Zero (Print & Go)</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-good" style="width:8%"></div></div></div>
+          <div class="cmp-metric"><div class="cmp-row"><span class="cmp-lab">Child's Interest</span><span class="cmp-val cmp-val-good">Maximum</span></div><div class="cmp-bar"><div class="cmp-fill cmp-fill-good" style="width:100%"></div></div></div>
+          <p class="cmp-foot">Loved by parents and teachers who saw real results at home.</p>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top:2.25rem;">
+        <a class="btn btn-cta" href="#oferta" style="max-width:520px;">START LEARNING TODAY</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LEARNING JOURNEY (formerly CADERNOS) ============ -->
+  <section>
+    <div class="container">
+      <div class="text-center">
+        <span class="eyebrow">The Learning Journey</span>
+        <h2 class="h2">A complete system, not just worksheets. <span class="text-fire">Every step builds on the last.</span></h2>
+        <p class="lead-muted">Every module is built around how children actually learn to read and count in English — designed to unlock real confidence, even for kids who've struggled before.</p>
+      </div>
+
+      <div class="journey">
+        <div class="journey-step">
+          <div class="journey-num">1</div>
+          <div class="journey-card">
+            <div class="journey-thumb"><img src="images/letter-recognition-alphabet.png" alt="Letter Recognition & Alphabet workbook" loading="lazy"></div>
+            <div class="journey-body">
+              <h3>Letter Recognition & Alphabet</h3>
+              <p>Uppercase, lowercase, and letter matching — the foundation every reader needs.</p>
+              <ul><li>All 26 letters, step by step</li><li>Builds visual letter memory</li></ul>
+            </div>
+          </div>
+        </div>
+        <div class="journey-step">
+          <div class="journey-num">2</div>
+          <div class="journey-card">
+            <div class="journey-thumb"><img src="images/phonics-reading-skills.png" alt="Phonics & Reading Skills workbook" loading="lazy"></div>
+            <div class="journey-body">
+              <h3>Phonics & Reading Skills</h3>
+              <p>Short vowels, CVC words, blends and digraphs — the real system used to teach kids to read in English.</p>
+              <ul><li>117 guided pages</li><li>Real English phonics sequence</li></ul>
+            </div>
+          </div>
+        </div>
+        <div class="journey-step">
+          <div class="journey-num">3</div>
+          <div class="journey-card">
+            <div class="journey-thumb"><img src="images/sight-words.png" alt="Sight Words workbook" loading="lazy"></div>
+            <div class="journey-body">
+              <h3>Sight Words</h3>
+              <p>The most common words every early reader needs to recognize instantly.</p>
+              <ul><li>133 words, Dolch-based lists</li><li>Fun, repeatable practice</li></ul>
+            </div>
+          </div>
+        </div>
+        <div class="journey-step">
+          <div class="journey-num">4</div>
+          <div class="journey-card">
+            <div class="journey-thumb"><img src="images/writing-sentences.png" alt="Writing & Sentences workbook" loading="lazy"></div>
+            <div class="journey-body">
+              <h3>Writing & Sentences</h3>
+              <p>Guided practice for forming letters, words and simple sentences — no tears, no pressure.</p>
+              <ul><li>From single letters to full sentences</li><li>Confidence-first approach</li></ul>
+            </div>
+          </div>
+        </div>
+        <div class="journey-step">
+          <div class="journey-num">5</div>
+          <div class="journey-card">
+            <div class="journey-thumb"><img src="images/math-made-fun.png" alt="Math Made Fun workbook" loading="lazy"></div>
+            <div class="journey-body">
+              <h3>Math Made Fun</h3>
+              <p>Counting, numbers, shapes and patterns made playful and pressure-free.</p>
+              <ul><li>Numbers 1–20 & early operations</li><li>Playful, visual approach</li></ul>
+            </div>
+          </div>
+        </div>
+        <div class="journey-step">
+          <div class="journey-num">6</div>
+          <div class="journey-card">
+            <div class="journey-thumb"><img src="images/fine-motor-skills.png" alt="Fine Motor Skills workbook" loading="lazy"></div>
+            <div class="journey-body">
+              <h3>Fine Motor Skills</h3>
+              <p>Tracing, cutting and hands-on activities that build the hand strength kids need for writing.</p>
+              <ul><li>Scissor & pencil control</li><li>Prepares the hand for writing</li></ul>
+            </div>
+          </div>
+        </div>
+        <div class="journey-step">
+          <div class="journey-num">7</div>
+          <div class="journey-card">
+            <div class="journey-thumb"><img src="images/handwriting-practice.png" alt="Handwriting Practice workbook" loading="lazy"></div>
+            <div class="journey-body">
+              <h3>Handwriting Practice</h3>
+              <p>Clear, confident letter formation with a progressive method — from single letters to full words.</p>
+              <ul><li>Progressive tracing method</li><li>Builds legible handwriting</li></ul>
+            </div>
+          </div>
+        </div>
+        <div class="journey-step">
+          <div class="journey-num">8</div>
+          <div class="journey-card">
+            <div class="journey-thumb"><img src="images/color-create.png" alt="Color & Create workbook" loading="lazy"></div>
+            <div class="journey-body">
+              <h3>Color & Create</h3>
+              <p>Guaranteed fun that builds creativity, focus and school readiness.</p>
+              <ul><li>Pure screen-free fun</li><li>Builds focus & creativity</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="journey-capstones">
+        <div class="capstone">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <h4>Certificates</h4>
+          <p>Celebrate every milestone your child reaches.</p>
+        </div>
+        <div class="capstone">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg></div>
+          <h4>Parent Guide</h4>
+          <p>A simple quick-start guide so you always know what's next.</p>
+        </div>
+        <div class="capstone">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.4 8.6 13 14l-3-3-4.4 4.4"/></svg></div>
+          <h4>Progress Tracker</h4>
+          <p>Watch your child's growth week by week.</p>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top:2.5rem;">
+        <a class="btn btn-cta" href="#oferta">GET INSTANT ACCESS</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEPOIMENTOS ============ -->
+  <section class="section-muted">
+    <div class="container">
+      <div class="text-center">
+        <div style="font-size:1.4rem; color:#f59e0b; margin-bottom:.4rem;">★★★★★ <strong style="color:#0f172a; font-family:Poppins,sans-serif;">4.9/5</strong></div>
+        <h2 class="h2">Parents and teachers <span class="text-fire">love</span> the results!</h2>
+      </div>
+      <div class="depoimentos">
+        <div class="depo depo-social">
+          <div class="soc-head">
+            <div class="soc-avatar">R<span class="soc-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4 4 10-10" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+            <div><div class="soc-name">Rachel T.</div><div class="soc-meta">Kindergarten Teacher · Denver, CO</div></div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>"I hand these pages out as classroom warm-ups. They're leveled so well that I don't have to modify anything for my strugglers or my early readers."</p>
+          <div class="soc-actions">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 22V11l5-9 1.5 1L12 9h9l-2 12H7Z"/></svg> Helpful</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H3l2-4a8.5 8.5 0 1 1 16-4.5Z"/></svg> Comment</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg> Share</span>
+          </div>
+        </div>
+        <div class="depo depo-market">
+          <div class="mkt-head">
+            <div class="stars">★★★★★</div>
+            <span class="mkt-verified"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg> Verified Purchase</span>
+          </div>
+          <span class="role">Homeschool Mom</span>
+          <p>"I was overwhelmed trying to piece together our own curriculum. This gave me an actual order to follow, so I stopped second-guessing every lesson."</p>
+          <div class="who"><div class="av">E</div><div><div class="nm">Emily R.</div><div class="ct">Austin, TX</div></div><span class="verified">✓</span></div>
+        </div>
+        <div class="depo depo-social">
+          <div class="soc-head">
+            <div class="soc-avatar">M<span class="soc-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4 4 10-10" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+            <div><div class="soc-name">Megan P.</div><div class="soc-meta">Working Mom · Charlotte, NC</div></div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>"I don't have time to plan activities after work. I print a few pages Sunday night and my daughter works through them independently all week."</p>
+          <div class="soc-actions">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 22V11l5-9 1.5 1L12 9h9l-2 12H7Z"/></svg> Helpful</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H3l2-4a8.5 8.5 0 1 1 16-4.5Z"/></svg> Comment</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg> Share</span>
+          </div>
+        </div>
+        <div class="depo depo-market">
+          <div class="mkt-head">
+            <div class="stars">★★★★★</div>
+            <span class="mkt-verified"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg> Verified Purchase</span>
+          </div>
+          <span class="role">Grandmother</span>
+          <p>"My grandkids stay with me two days a week and I was running out of screen-free ideas. Now they ask to do their 'workbook' the second they walk in."</p>
+          <div class="who"><div class="av">S</div><div><div class="nm">Susan H.</div><div class="ct">Richmond, VA</div></div><span class="verified">✓</span></div>
+        </div>
+        <div class="depo depo-social">
+          <div class="soc-head">
+            <div class="soc-avatar">N<span class="soc-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4 4 10-10" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+            <div><div class="soc-name">Nicole B.</div><div class="soc-meta">Speech Therapist · Columbus, OH</div></div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>"The phonics sequencing lines up well with the sound work I do in sessions, so I've been sending pages home as extra practice between visits."</p>
+          <div class="soc-actions">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 22V11l5-9 1.5 1L12 9h9l-2 12H7Z"/></svg> Helpful</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H3l2-4a8.5 8.5 0 1 1 16-4.5Z"/></svg> Comment</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg> Share</span>
+          </div>
+        </div>
+        <div class="depo depo-market">
+          <div class="mkt-head">
+            <div class="stars">★★★★★</div>
+            <span class="mkt-verified"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg> Verified Purchase</span>
+          </div>
+          <span class="role">Early Childhood Educator</span>
+          <p>"I printed and laminated a full set for my classroom center. The kids reuse them with dry-erase markers all year — genius and budget-friendly."</p>
+          <div class="who"><div class="av">A</div><div><div class="nm">Ashley K.</div><div class="ct">Portland, OR</div></div><span class="verified">✓</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ IMAGINE YOUR CHILD (transformation) ============ -->
+  <section>
+    <div class="container">
+      <div class="text-center">
+        <span class="eyebrow">The Transformation</span>
+        <h2 class="h2">Imagine Your Child<span class="text-fire">...</span></h2>
+        <p class="lead-muted">In just a few weeks of screen-free practice, this is what progress looks like.</p>
+      </div>
+      <div class="imagine-grid">
+        <div class="imagine-item">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2Z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7Z"/></svg></span>
+          Reading their first words
+        </div>
+        <div class="imagine-item">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg></span>
+          Recognizing every letter
+        </div>
+        <div class="imagine-item">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 2 4 4-13 13H5v-4Z"/></svg></span>
+          Holding a pencil correctly
+        </div>
+        <div class="imagine-item">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg></span>
+          Loving learning
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OFERTA / PRICING ============ -->
+  <section id="oferta" class="section-dark">
+    <div class="container">
+      <div class="text-center">
+        <span class="urgency">⏱ OFFER ENDS TODAY!</span>
+        <h2 class="h2">Choose your kit <span class="text-fire">with an exclusive discount</span></h2>
+        <p style="opacity:.85; margin-top:.5rem;">Join 1,500+ parents building confident learners at home. Today's the day.</p>
+        <div class="countdown">
+          <span class="cd-lbl">Offer Ends In</span>
+          <span class="cd-time" id="cdTime">02:00:00</span>
+        </div>
+      </div>
+
+      <div class="pricing">
+        <!-- Essential -->
+        <div class="plan">
+          <span class="eyebrow-sm">Essential Plan</span>
+          <h3>Starter Kit</h3>
+          <div class="desc">Perfect to get started today</div>
+          <div class="strike">Was $67</div>
+          <div class="price">$17</div>
+          <div class="install muted">one-time payment • instant access</div>
+          <div class="value-stack">
+            <div class="vs-row"><span>Alphabet & Letter Recognition</span><span class="v">$19</span></div>
+            <div class="vs-row"><span>Math Made Fun</span><span class="v">$19</span></div>
+            <div class="vs-row"><span>Handwriting Practice</span><span class="v">$14</span></div>
+            <div class="vs-row"><span>Fine Motor Skills</span><span class="v">$15</span></div>
+            <div class="vs-total"><span>Total Retail Value</span><span>$67</span></div>
+          </div>
+          <div class="value-summary"><span class="save">You Save $50</span><span class="lbl">Today Only</span></div>
+          <ul class="feat">
+            <li>Alphabet</li>
+            <li>Math</li>
+            <li>Handwriting</li>
+            <li>Fine Motor</li>
+            <li>Exclusive Bonuses</li>
+            <li>Lifetime Access</li>
+          </ul>
+          <a class="btn btn-dark" href="#oferta">Get the Starter Kit</a>
+        </div>
+
+        <!-- Complete -->
+        <div class="plan featured">
+          <span class="plan-badge-top">⭐ MOST POPULAR</span>
+          <span class="eyebrow-sm">Complete Bundle</span>
+          <h3>The Ultimate Learning Kit</h3>
+          <div class="desc">For real results — with an exclusive discount</div>
+          <div class="strike">Was $97</div>
+          <div class="price">$27</div>
+          <div class="install">one-time payment • instant access</div>
+          <div class="value-stack">
+            <div class="vs-row"><span>Complete Phonics & Reading System</span><span class="v">$27</span></div>
+            <div class="vs-row"><span>Sight Words & Reading Practice</span><span class="v">$19</span></div>
+            <div class="vs-row"><span>Letter Recognition & Sounds</span><span class="v">$12</span></div>
+            <div class="vs-row"><span>Word & Sentence Building</span><span class="v">$12</span></div>
+            <div class="vs-row"><span>Math Made Fun</span><span class="v">$12</span></div>
+            <div class="vs-row"><span>Fine Motor Skills</span><span class="v">$8</span></div>
+            <div class="vs-row"><span>Handwriting Practice</span><span class="v">$7</span></div>
+            <div class="vs-total"><span>Total Retail Value</span><span>$97</span></div>
+          </div>
+          <div class="value-summary"><span class="save">You Save $70</span><span class="lbl">Today Only</span></div>
+          <div class="box-feat">
+            <div class="ttl">🎁 YOU GET IT ALL:</div>
+            <ul class="feat" style="font-size:.9rem;">
+              <li>500+ Activities (DOUBLE the content!)</li>
+              <li>Complete Phonics & Reading System</li>
+              <li>Sight Words & Reading Practice</li>
+              <li>Fine Motor Skills</li>
+              <li>Letter Sounds & Recognition</li>
+              <li>Word & Sentence Building</li>
+              <li>Handwriting Practice</li>
+              <li>Math Made Fun</li>
+              <li>Seasonal Bonus Packs</li>
+              <li>Exclusive Bonuses</li>
+              <li>Lifetime Access</li>
+            </ul>
+          </div>
+          <a class="btn btn-cta" href="#oferta">GET THE ULTIMATE KIT</a>
+          <div class="mini-trust">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Secure Checkout</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Instant Access</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg> 30-Day Guarantee</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section-muted">
+    <div class="container">
+      <div class="text-center">
+        <span class="eyebrow">Simple As 1-2-3</span>
+        <h2 class="h2">How It <span class="text-fire">Works</span></h2>
+      </div>
+      <div class="how-steps">
+        <div class="how-step">
+          <div class="how-num">1</div>
+          <h3>Download</h3>
+          <p>Get instant access to your kit right after checkout.</p>
+        </div>
+        <div class="how-arrow"><span class="arrow-v">↓</span><span class="arrow-h">→</span></div>
+        <div class="how-step">
+          <div class="how-num">2</div>
+          <h3>Print</h3>
+          <p>Print any page, as many times as you need, at home.</p>
+        </div>
+        <div class="how-arrow"><span class="arrow-v">↓</span><span class="arrow-h">→</span></div>
+        <div class="how-step">
+          <div class="how-num">3</div>
+          <h3>Learn</h3>
+          <p>Watch your child build real confidence, page by page.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BÔNUS ============ -->
+  <section>
+    <div class="container">
+      <div class="text-center">
+        <span class="badge-pill" style="background:#f59e0b; color:#1f2937; border:0;">🎁 EXCLUSIVE BONUSES</span>
+        <h2 class="h2">Order today and get <span class="text-fire">$200+ in free bonuses</span></h2>
+        <p class="lead-muted">Bonuses included instantly — for today's action-takers only.</p>
+      </div>
+
+      <div class="bonus-list">
+        <div class="bonus-item"><div class="bonus-num">01</div><div class="info"><span class="bonus-label">Bonus #1</span><h3><span class="val">$47</span> Reading Fluency Master Pack</h3><p>80 extra pages of reading and phonics practice.</p></div><div class="price-side"><span class="reg-lbl">Regular Price</span><div class="old">$47</div><div class="free">FREE</div></div></div>
+        <div class="bonus-item"><div class="bonus-num">02</div><div class="info"><span class="bonus-label">Bonus #2</span><h3><span class="val">$37</span> Sight Words Power Pack</h3><p>Printable flashcards for the most common early-reader words.</p></div><div class="price-side"><span class="reg-lbl">Regular Price</span><div class="old">$37</div><div class="free">FREE</div></div></div>
+        <div class="bonus-item"><div class="bonus-num">03</div><div class="info"><span class="bonus-label">Bonus #3</span><h3><span class="val">$47</span> Learning Games Master Pack</h3><p>Memory match, phonics bingo, and letter dominoes.</p></div><div class="price-side"><span class="reg-lbl">Regular Price</span><div class="old">$47</div><div class="free">FREE</div></div></div>
+        <div class="bonus-item"><div class="bonus-num">04</div><div class="info"><span class="bonus-label">Bonus #4</span><h3><span class="val">$67</span> Progress & Certificates Bundle</h3><p>Track your child's growth week by week and celebrate every milestone.</p></div><div class="price-side"><span class="reg-lbl">Regular Price</span><div class="old">$67</div><div class="free">FREE</div></div></div>
+        <div class="bonus-item"><div class="bonus-num">05</div><div class="info"><span class="bonus-label">Bonus #5</span><h3><span class="val">$25</span> Mystery Bonus</h3><p>Revealed after checkout. You'll love it.</p></div><div class="price-side"><span class="reg-lbl">Regular Price</span><div class="old">$25</div><div class="free">FREE</div></div></div>
+      </div>
+
+      <div class="bonus-total">
+        <div class="lbl">Total Bonus Value</div>
+        <div class="amt">$223 <small>— Yours FREE Today</small></div>
+      </div>
+
+      <div class="text-center" style="margin-top:2rem;">
+        <a class="btn btn-cta" href="#oferta">🎁 CLAIM MY BONUSES NOW</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHO IS THIS FOR ============ -->
+  <section>
+    <div class="container">
+      <div class="text-center">
+        <h2 class="h2">Who Is This <span class="text-fire">For?</span></h2>
+      </div>
+      <div class="who-badges">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Ages 2–7</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Parents</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Homeschool</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Preschool</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Kindergarten</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GARANTIA ============ -->
+  <section class="section-muted" style="padding-top:6rem;">
+    <div class="container">
+      <div class="guarantee">
+        <div class="seal seal-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="52" height="52"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h2 class="h2"><span style="color:var(--success);">30-Day</span> Money Back Guarantee</h2>
+        <p class="lead-muted" style="margin-top:.75rem;">Try it risk-free. Not satisfied? Full refund, no questions asked.</p>
+        <div class="guarantee-badges">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg> No Risk</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> 100% Secure</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> 30-Day Money Back</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY PARENTS LOVE PRINTABLE LEARNING ============ -->
+  <section class="section-muted">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="h2">Why Parents Love <span class="text-fire">Printable Learning</span></h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="m9 9 2 2 4-4"/></svg></div>
+          <h3>No Screens, No Guilt</h3>
+          <p>Real, hands-on learning your child can touch — no tablets, no apps, no battles over screen time.</p>
+        </div>
+        <div class="why-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <h3>Learn At Their Own Pace</h3>
+          <p>No classroom pressure, no comparing to other kids — just steady, confident progress at home.</p>
+        </div>
+        <div class="why-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="9" width="12" height="13" rx="1"/><path d="M9 9V5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v9"/></svg></div>
+          <h3>Use It Again and Again</h3>
+          <p>Print unlimited copies for every sibling, every year — one purchase, lifetime access.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section>
+    <div class="container">
+      <div class="text-center">
+        <h2 class="h2">Frequently Asked <span class="text-fire">Questions</span></h2>
+        <p class="lead-muted">Everything you need to know before you buy.</p>
+      </div>
+
+      <div class="faq">
+        <details open=""><summary>When do I get the material after payment?</summary><div class="a">You'll get instant access sent straight to your email as soon as your payment is confirmed. Everything is 100% digital — download and print right away.</div></details>
+        <details><summary>Is it a one-time payment or a subscription?</summary><div class="a">One-time payment. Pay once and get lifetime access to everything.</div></details>
+        <details><summary>What age is this kit for?</summary><div class="a">Recommended for ages 2 to 7 — Preschool through 1st Grade.</div></details>
+        <details><summary>Does it work with a black & white printer?</summary><div class="a">Yes! All activities are ink-friendly and print beautifully in black & white.</div></details>
+        <details><summary>Can I print unlimited times?</summary><div class="a">Yes! Once you download your kit, you can print every page as many times as you need — for every child in your family, forever.</div></details>
+        <details><summary>Is this the right method to teach my child to read?</summary><div class="a">Yes. Every activity follows the phonics-based approach used to teach reading in English, step by step — built to develop the exact skills kids need before Kindergarten.</div></details>
+        <details><summary>What payment methods are accepted?</summary><div class="a">All major credit/debit cards and more. Access is instant after confirmation.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="final">
+    <div class="container">
+      <div class="heart">❤️</div>
+      <h2>Don't let your child fall behind.</h2>
+      <p style="font-size:1.15rem; margin-bottom:2rem; opacity:.95;">Start today. In 30 days, you won't believe the progress.</p>
+      <a class="btn" href="#oferta" style="background:#fff; color:#0f172a; font-size:1.2rem; padding:1.2rem 2rem; box-shadow: var(--shadow-pop);">DOWNLOAD NOW</a>
+      <div style="margin-top:1.2rem; font-size:.85rem; opacity:.9;">🔒 Secure Payment • ⚡ Instant Access • 🛡️ 30-Day Guarantee</div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="ttl">📚 Sunny Scholars</div>
+        <p>Our mission is simple: give every parent screen-free, teacher-inspired activities that build real confidence at home — without the overwhelm.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#oferta">Refund Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Sunny Scholars. All rights reserved.</p>
+      <div class="footer-payments">
+        <span>🔒 Secure Payments</span>
+        <span>VISA</span>
+        <span>Mastercard</span>
+        <span>PayPal</span>
+        <span>SSL Secured</span>
+        <span>256-bit Encryption</span>
+        <span>Safe Checkout</span>
+      </div>
+    </div>
+    <p class="small" style="text-align:center; max-width:1100px; margin:1rem auto 0; padding:0 1.25rem;">This site is not affiliated with Google or Facebook. Results may vary by child.</p>
+  </footer>
+
+  <!-- ============ NOTIFICAÇÕES DE COMPRA (custom) ============ -->
+  <style>
+    .pp-notify{
+      position: fixed;
+      left: 16px;
+      bottom: 20px;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: min(340px, calc(100vw - 32px));
+      background: #ffffff;
+      color: #0f172a;
+      border-radius: 14px;
+      padding: 12px 14px 12px 12px;
+      box-shadow: 0 18px 45px -12px rgba(15,23,42,.28), 0 4px 12px rgba(15,23,42,.08);
+      border: 1px solid rgba(15,23,42,.06);
+      font-family: 'Outfit', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      transform: translateX(-120%);
+      opacity: 0;
+      transition: transform .45s cubic-bezier(.2,.8,.2,1), opacity .45s ease;
+      pointer-events: auto;
+      bottom: calc(20px + env(safe-area-inset-bottom));
+    }
+    .pp-notify.show{ transform: translateX(0); opacity: 1; }
+    .pp-notify .pp-avatar{
+      position: relative;
+      flex-shrink: 0;
+      width: 46px; height: 46px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      font-family: 'Poppins','Inter',sans-serif;
+      font-weight: 700;
+      font-size: 1.15rem;
+      background: linear-gradient(135deg, #2563eb, #60a5fa);
+      box-shadow: 0 6px 14px -4px rgba(37,99,235,.5);
+    }
+    .pp-notify .pp-verified{
+      position: absolute;
+      right: -3px; bottom: -3px;
+      width: 18px; height: 18px;
+      background: #1d9bf0;
+      color: #fff;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      border: 2px solid #fff;
+      font-size: 10px;
+      line-height: 1;
+    }
+    .pp-notify .pp-verified svg{ width: 11px; height: 11px; display:block; }
+    .pp-notify .pp-body{ flex: 1; min-width: 0; line-height: 1.3; }
+    .pp-notify .pp-name-line{
+      display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+      font-size: .9rem;
+    }
+    .pp-notify .pp-name{ font-weight: 700; color: #0f172a; }
+    .pp-notify .pp-check-mini{
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 14px; height: 14px; background: #1d9bf0; color: #fff;
+      border-radius: 50%; flex-shrink: 0;
+    }
+    .pp-notify .pp-check-mini svg{ width: 9px; height: 9px; }
+    .pp-notify .pp-text{ font-size: .82rem; color: #334155; margin-top: 2px; }
+    .pp-notify .pp-text strong{ color: #2563eb; font-weight: 700; }
+    .pp-notify .pp-meta{
+      font-size: .7rem; color: #94a3b8; margin-top: 4px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .pp-notify .pp-meta .pp-dot{
+      width: 6px; height: 6px; border-radius: 50%;
+      background: #22c55e;
+      box-shadow: 0 0 0 0 rgba(34,197,94,.7);
+      animation: ppPulse 1.6s infinite;
+    }
+    @keyframes ppPulse {
+      0%   { box-shadow: 0 0 0 0 rgba(34,197,94,.6); }
+      70%  { box-shadow: 0 0 0 8px rgba(34,197,94,0); }
+      100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+    }
+    .pp-notify .pp-close{
+      position: absolute;
+      top: 6px; right: 8px;
+      background: transparent; border: 0; cursor: pointer;
+      color: #94a3b8; font-size: 16px; line-height: 1;
+      padding: 2px 6px; border-radius: 6px;
+    }
+    .pp-notify .pp-close:hover{ color: #0f172a; background: #f1f5f9; }
+    @media (max-width: 480px){
+      .pp-notify{ left: 10px; right: 10px; width: auto; bottom: calc(80px + env(safe-area-inset-bottom)); }
+    }
+  </style>
+
+  <script>
+  (function(){
+    var KEY = 'ssOfferDeadline';
+    var DURATION = 2 * 60 * 60 * 1000; // 2 hours, evergreen per visitor
+    var deadline = parseInt(localStorage.getItem(KEY), 10);
+    if (!deadline || deadline < Date.now()) {
+      deadline = Date.now() + DURATION;
+      localStorage.setItem(KEY, deadline);
+    }
+    function pad(n){ return String(n).padStart(2, '0'); }
+    function tick(){
+      var diff = deadline - Date.now();
+      if (diff <= 0) {
+        deadline = Date.now() + DURATION;
+        localStorage.setItem(KEY, deadline);
+        diff = DURATION;
+      }
+      var h = Math.floor(diff / 3600000);
+      var m = Math.floor((diff % 3600000) / 60000);
+      var s = Math.floor((diff % 60000) / 1000);
+      var el = document.getElementById('cdTime');
+      if (el) el.textContent = pad(h) + ':' + pad(m) + ':' + pad(s);
+    }
+    tick();
+    setInterval(tick, 1000);
+  })();
+  </script>
+
+  <script>
+  (function(){
+    var nomes = [
+      'Emily','Olivia','Ava','Sophia','Isabella','Mia','Amelia','Emma','Charlotte','Harper',
+      'Jessica','Ashley','Megan','Rachel','Lauren','Amanda','Nicole','Stephanie','Kayla','Brittany',
+      'Jennifer','Sarah','Michelle','Amy','Melissa','Katie','Hannah','Samantha','Victoria','Grace',
+      'Chloe','Zoey','Madison','Ella','Abigail','Lily','Natalie','Brianna','Courtney','Kimberly'
+    ];
+    var sobrenomes = ['M.','S.','R.','P.','L.','C.','F.','A.','B.','H.','G.','T.','N.','D.'];
+    var cidades = [
+      'Austin, TX','Denver, CO','Charlotte, NC','Portland, OR','Nashville, TN','Phoenix, AZ',
+      'Columbus, OH','Orlando, FL','Sacramento, CA','Raleigh, NC','San Antonio, TX','Tampa, FL',
+      'Indianapolis, IN','Kansas City, MO','Salt Lake City, UT','Boise, ID','Atlanta, GA',
+      'Minneapolis, MN','Cincinnati, OH','Richmond, VA','Chicago, IL','Dallas, TX',
+      'Seattle, WA','San Diego, CA','Houston, TX','Miami, FL','Pittsburgh, PA',
+      'Baltimore, MD','Milwaukee, WI','Albuquerque, NM'
+    ];
+    var produtos = [
+      { nome: 'Ultimate Learning Kit',  peso: 75 },
+      { nome: 'Starter Kit',    peso: 25 }
+    ];
+
+    function rand(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
+    function escolherProduto(){
+      var r = Math.random()*100, acc = 0;
+      for (var i=0;i<produtos.length;i++){ acc += produtos[i].peso; if (r <= acc) return produtos[i].nome; }
+      return produtos[0].nome;
+    }
+
+    var checkSVG = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.5l4 4 10-10" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+    function criarNotificacao(){
+      var nome = rand(nomes);
+      var sobre = rand(sobrenomes);
+      var cidade = rand(cidades);
+      var produto = escolherProduto();
+      var minutos = Math.floor(Math.random()*9) + 1;
+      var inicial = nome.charAt(0);
+
+      var box = document.createElement('div');
+      box.className = 'pp-notify';
+      box.setAttribute('role','status');
+      box.setAttribute('aria-live','polite');
+      box.innerHTML =
+        '<button class="pp-close" aria-label="Close">×</button>' +
+        '<div class="pp-avatar">' + inicial +
+          '<span class="pp-verified" title="Verified purchase">' + checkSVG + '</span>' +
+        '</div>' +
+        '<div class="pp-body">' +
+          '<div class="pp-name-line">' +
+            '<span class="pp-name">' + nome + ' ' + sobre + '</span>' +
+            '<span class="pp-check-mini" title="Verified">' + checkSVG + '</span>' +
+          '</div>' +
+          '<div class="pp-text">just got the <strong>' + produto + '</strong></div>' +
+          '<div class="pp-meta"><span class="pp-dot"></span>' + cidade + ' • ' + minutos + ' min ago</div>' +
+        '</div>';
+
+      document.body.appendChild(box);
+      requestAnimationFrame(function(){ box.classList.add('show'); });
+
+      var hideTimer = setTimeout(fechar, 6000);
+      box.querySelector('.pp-close').addEventListener('click', function(){
+        clearTimeout(hideTimer); fechar();
+      });
+
+      function fechar(){
+        box.classList.remove('show');
+        setTimeout(function(){ if (box.parentNode) box.parentNode.removeChild(box); }, 500);
+      }
+    }
+
+    function loop(){
+      criarNotificacao();
+      var prox = (Math.floor(Math.random() * 17) + 8) * 1000; // 8s a 24s
+      setTimeout(loop, prox);
+    }
+
+    if (document.readyState === 'loading'){
+      document.addEventListener('DOMContentLoaded', function(){ setTimeout(loop, 3500); });
+    } else {
+      setTimeout(loop, 3500);
+    }
+  })();
+  </script>
+
+
+
+</body></html>
