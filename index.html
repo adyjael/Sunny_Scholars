@@ -251,7 +251,7 @@
             <span>Instant Download</span>
           </div>
 
-          <a class="btn btn-cta btn-cta-lg" href="#oferta">GET INSTANT ACCESS →</a>
+          <a class="btn btn-cta btn-cta-lg" href="#oferta" data-scroll="oferta">GET INSTANT ACCESS →</a>
 
           <div class="hero-trust-badges">
             <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg> Instant Download</span>
@@ -329,7 +329,7 @@
       </div>
 
       <div class="text-center" style="margin-top:2.25rem;">
-        <a class="btn btn-cta" href="#oferta" style="max-width:520px;">START LEARNING TODAY</a>
+        <a class="btn btn-cta" href="#oferta" data-scroll="oferta" style="max-width:520px;">START LEARNING TODAY</a>
       </div>
     </div>
   </section>
@@ -453,7 +453,7 @@
       </div>
 
       <div class="text-center" style="margin-top:2.5rem;">
-        <a class="btn btn-cta" href="#oferta">GET INSTANT ACCESS</a>
+        <a class="btn btn-cta" href="#oferta" data-scroll="oferta">GET INSTANT ACCESS</a>
       </div>
     </div>
   </section>
@@ -645,7 +645,7 @@
       </div>
 
       <div class="text-center" style="margin-top:2rem;">
-        <a class="btn btn-cta" href="#oferta">🎁 CLAIM MY BONUSES NOW</a>
+        <a class="btn btn-cta" href="#oferta" data-scroll="oferta">🎁 CLAIM MY BONUSES NOW</a>
       </div>
     </div>
   </section>
@@ -734,7 +734,7 @@
       <div class="heart">❤️</div>
       <h2>Don't let your child fall behind.</h2>
       <p style="font-size:1.15rem; margin-bottom:2rem; opacity:.95;">Start today. In 30 days, you won't believe the progress.</p>
-      <a class="btn" href="#oferta" style="background:#fff; color:#0f172a; font-size:1.2rem; padding:1.2rem 2rem; box-shadow: var(--shadow-pop);">DOWNLOAD NOW</a>
+      <a class="btn" href="#oferta" data-scroll="oferta" style="background:#fff; color:#0f172a; font-size:1.2rem; padding:1.2rem 2rem; box-shadow: var(--shadow-pop);">DOWNLOAD NOW</a>
       <div style="margin-top:1.2rem; font-size:.85rem; opacity:.9;">🔒 Secure Payment • ⚡ Instant Access • 🛡️ 30-Day Guarantee</div>
     </div>
   </section>
@@ -751,7 +751,7 @@
         <ul>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">FAQ</a></li>
-          <li><a href="#oferta">Refund Policy</a></li>
+          <li><a href="#oferta" data-scroll="oferta">Refund Policy</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -776,6 +776,21 @@
     </div>
     <p class="small" style="text-align:center; max-width:1100px; margin:1rem auto 0; padding:0 1.25rem;">This site is not affiliated with Google or Facebook. Results may vary by child.</p>
   </footer>
+
+  <!-- ============ SMOOTH SCROLL FOR OFFER LINKS ============ -->
+  <!-- Tracking scripts rewrite in-page href="#oferta" links into full URLs with UTM
+       params, which turns them into full page reloads instead of same-page scrolls.
+       This intercepts the click before that happens and scrolls directly instead. -->
+  <script>
+  document.addEventListener('click', function(e){
+    var el = e.target.closest('[data-scroll]');
+    if (!el) return;
+    var target = document.getElementById(el.getAttribute('data-scroll'));
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, true);
+  </script>
 
   <!-- ============ NOTIFICAÇÕES DE COMPRA (custom) ============ -->
   <style>
