@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8811"],
       "port": 8811
+    },
+    {
+      "name": "assistant-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "assistant", "run", "dev", "--", "-p", "3100"],
+      "port": 3100
     }
   ]
 }
